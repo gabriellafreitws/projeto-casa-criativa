@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Criativa</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\gabjo\OneDrive\Área de Trabalho\rocket\style.css">
+
+</head>
+<body>
+
+    <div id="container">
+
+        <section id="intro">
+
+            <header>
+                <img src="C:\Users\gabjo\OneDrive\Área de Trabalho\rocket\img\logo.png">
+            </header>
+
+            <main>
+                <p>Ficar em casa em períodos longos, não deve ser nada fácil.</p>
+
+                <p>Iremos catalogar <strong>ideias, brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo
+                que for necessário para tornar esse momento mais interessante.</p>
+    
+                <p>Comece clicando em ver ideias para ver as  ideias cadastradas e contribua adicioando a sua ideia.</p>
+            </main>
+
+            <section id="buttons">
+                <button onclick="onOff()"> + Adicionar idéia </button>
+                <button class="fat"> <a href="ideias.html">Ver idéias </a></button>
+            </section>
+           
+       
+
+        <footer>
+            Feito por: <a href="https://www.linkedin.com/in/gabriella-dos-s-freitas/" target="_blank">Gabriella Freitas </a>❤︎
+        </footer>
+        </section>
+
+        <section id="ideas">
+            <div class="idea">
+                <img src="https://cdn-icons.flaticon.com/png/512/4658/premium/4658576.png?token=exp=1656290280~hmac=101c21cd53085f200aa408a3e9db75cc"
+                alt="Imagem de curso de programação">
+                <div class="content">
+                    <h3>Cursos de Programação</h3>
+                    <p>Estudo</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://cdn-icons-png.flaticon.com/512/4658/4658460.png"
+                alt="Imagem de Exercícios">
+                <div class="content">
+                    <h3>Exercícios</h3>
+                    <p>Saúde</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://cdn-icons.flaticon.com/png/512/4658/premium/4658616.png?token=exp=1656290280~hmac=e51b490ab3b689eaa89359f48448a22e"
+                alt="Imagem de Jogos de Tabuleiro">
+                <div class="content">
+                    <h3>Jogos de Tabuleiro</h3>
+                    <p>Jogos</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Título da ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" cols="30" ></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+                <a href="#" onclick="onOff()">Fechar</a>
+                <button>Salvar</button>
+
+            
+
+            </form>
+        </div>
+
+    </div>
+    <script src="C:\Users\gabjo\OneDrive\Área de Trabalho\rocket\scripts.js"></script>
+</body>
+</html>
